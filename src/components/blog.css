@@ -1,0 +1,78 @@
+﻿body
+{
+}
+
+.title {
+    border: 2px solid #F3F5F6;
+    height: 82px;
+}
+
+#v_picture {
+    width: 78px;
+    height: 78px;
+    margin-left: 50px;
+    margin-bottom: -55px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+.menu {
+    height: 500px;
+    width: 276px;
+    background-color: #F3F5F6;
+    float: left;
+}
+
+    .menu a:link,
+    .menu a:visited {
+        color: black;
+        display: block;
+        text-decoration:none;
+        border: 7px solid #F3F5F6;
+        border-radius: 20px;
+        height: 40px;
+        float-right: 10px;
+        margin: 10px;
+        background-color: white;
+        overflow-y: hidden;
+        outline-width:0
+    }
+
+.intro {
+    float: left;
+    width: 900px;
+    position: relative;
+    padding: 10px;
+}
+
+.main-word {
+    width: 630px;
+    height: auto;
+    display: block;
+    padding: 10px;
+    border-style: none dashed;
+    border-color: #ccc;
+    position: absolute;
+}
+
+    .main-word p {
+        line-height: 30px;
+    }
+
+.tutor {
+    width: 200px;
+    line-height: 35px;
+    padding: 10px;
+    font-size: 10px;
+    float: right;
+}
+
+li{
+    list-style:none
+}
