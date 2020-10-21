@@ -37,7 +37,7 @@ module.exports = {
           resolve: `gatsby-source-filesystem`,
           options: {
               name: `posts`,
-              path: `${__dirname}/src/pages`,
+              path: `${__dirname}/src/posts`,
               ignore: [`**/\.*`], // ignore files starting with a dot
           },
       },
@@ -107,7 +107,7 @@ module.exports = {
       {
           resolve: "gatsby-plugin-page-creator",
           options: {
-              path: `${__dirname}/src/pages/posts`,
+              path: `${__dirname}/src/posts`,
           },
       },
       

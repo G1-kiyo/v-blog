@@ -11,7 +11,7 @@ path: "/design_philosophy"
 
 
 
-<h1>设计哲学</h1>
+
 
 
 

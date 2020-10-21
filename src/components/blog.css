@@ -1,8 +1,8 @@
-﻿body
-{
+﻿﻿body {
+    min-width:550px;
 }
 
-.title {
+#header {
     border: 2px solid #F3F5F6;
     height: 82px;
 }
@@ -14,26 +14,31 @@
     margin-bottom: -55px;
     background-color: white;
 }
-
-
-
-
-
-
-
-
-.menu {
-    height: 500px;
-    width: 276px;
-    background-color: #F3F5F6;
-    float: left;
+#blog-post-container {
+    padding-left: 200px;
+    padding-right: 150px;
 }
 
-    .menu a:link,
-    .menu a:visited {
+
+    #blog-post-container .column {
+        float: left;
+    }
+
+
+#menu {
+    height: 500px;
+    width: 200px;
+    background-color: #F3F5F6;
+    margin-left: -100%;
+    right: 200px;
+    position: relative;
+}
+
+    #menu a:link,
+    #menu a:visited {
         color: black;
         display: block;
-        text-decoration:none;
+        text-decoration: none;
         border: 7px solid #F3F5F6;
         border-radius: 20px;
         height: 40px;
@@ -41,38 +46,181 @@
         margin: 10px;
         background-color: white;
         overflow-y: hidden;
-        outline-width:0
+        outline-width: 0
     }
 
-.intro {
-    float: left;
-    width: 900px;
-    position: relative;
-    padding: 10px;
+#intro {
+    width: 100%;
+    padding:10px;
 }
 
-.main-word {
-    width: 630px;
+#main-word {
     height: auto;
     display: block;
-    padding: 10px;
+    padding: 30px;
     border-style: none dashed;
     border-color: #ccc;
-    position: absolute;
 }
 
-    .main-word p {
+    #main-word p {
         line-height: 30px;
     }
 
-.tutor {
-    width: 200px;
+#tutor {
+    width: 150px;
     line-height: 35px;
-    padding: 10px;
+    margin-right: -150px;
     font-size: 10px;
-    float: right;
+}
+#footer {
+    clear: both;
+    background-color: #F3F5F6;
+    height: 80px;
 }
 
-li{
-    list-style:none
+li {
+    list-style: none
+}
+
+h1 {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+small {
+    font-size: 80%;
+}
+h2 {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 1.62671rem;
+    line-height: 1.1;
+}
+h3 {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 1.38316rem;
+    line-height: 1.1;
+}
+h4 {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 1rem;
+    line-height: 1.1;
+}
+h5 {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 0.85028rem;
+    line-height: 1.1;
+}
+h6 {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 0.78405rem;
+    line-height: 1.1;
+}
+ul {
+    margin-left: 1.45rem;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+ol {
+    margin-left: 1.45rem;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+dl {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+}
+
+dd {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+}
+p {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    line-height:30px;
+}
+table {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    font-size: 1rem;
+    line-height: 1.45rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+form {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+}
+b {
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+dt {
+    font-weight: bold;
+}
+
+th {
+    font-weight: bold;
 }

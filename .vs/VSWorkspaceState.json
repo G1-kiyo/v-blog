@@ -5,10 +5,10 @@
     "\\src\\components",
     "\\src\\images",
     "\\src\\pages",
-    "\\src\\pages\\posts",
+    "\\src\\posts",
     "\\src\\templates",
     "\\src\\typography"
   ],
-  "SelectedNode": "\\src\\pages\\posts\\second.md",
+  "SelectedNode": "\\src\\templates\\blog-head.js",
   "PreviewInSolutionExplorer": false
 }
